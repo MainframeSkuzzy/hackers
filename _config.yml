@@ -2,7 +2,7 @@ title: Hackers
 description: "Freenode ##hackers , A community for IT and IT security enthusiasts,newbies and professionals."
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 
 gems:
   - jekyll-mentions
