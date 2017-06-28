@@ -121,7 +121,7 @@ https://github.com/fffaraz/MOOC
 https://github.com/josephmisiti/awesome-machine-learning
 
 http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm 
-
+ 
 https://www.dropbox.com/s/ijvausmtfcudf40/Lehman%2C%20Eric.%202010.%20Mathematics%20for%20Computer%20Science.pdf 
 
 https://www.dropbox.com/s/0m7rdxcrytn2mmu/Lovasz%2C%20L.%202000.%20Discrete%20Mathematics.pdf?dl=0
