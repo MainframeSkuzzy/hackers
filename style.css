@@ -1,5 +1,8 @@
 body {
-	background-color:#3c3d3f !important;
-	color:#35a521 !important;
+	background-color:#050126 !important;
+	color:white !important;
 	font-family: 'Titillium web',sans-serif;
 }
+
+a {
+	color:#d32c02;
