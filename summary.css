@@ -1,0 +1,48 @@
+body {
+	background-color:#3c3d3f;
+}
+
+h2 {
+	color:#f70004;
+    font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
+
+#title{
+	color:white;
+	font-family: 'Arial';
+	margin-left:20px;
+	
+	
+}
+#channelposts {
+	background-color:#44555e;
+	color:#c9c9c9;
+	border:solid 1px;
+  margin:15px;
+}
+
+#channelpost{
+	border-bottom:solid 1px;
+}
+
+#otx{
+	background-color:white;
+	color:#001021;
+	border:solid 1px #16a7c9;
+	margin:15px;
+}
+
+#otxpost{
+	border-bottom:solid 1px #001021;
+}
+#twitter {
+	background-color:#001021;
+	color:#0095ff;
+	border:solid 1px;
+	margin:15px;
+}
+#twitterentry{
+border-bottom:solid 1px
+}
+
