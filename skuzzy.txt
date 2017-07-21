@@ -1,0 +1,28 @@
+Skuzzy is an IRC  bot, it has feelings!
+
+It manages user auto-voicing in ##hackers , posts threat intel news and messages in ##hackers-threatintel,#0dayfeed,##malware,##dumps,#exploitkit and #ransomware
+
+It also has some integration with AntispamMeta,manages content on https://privateer.one/threat and https://hackers.netflify.com/summary.html
+
+Join ##hackers on chat.freenode.net using your favorite client (or via https://webchat.freenode.net) and say ahoy to skuzzy!
+
+Follow Skuzzy on twitter https://twitter.com/Skuzzy_bot , mention ##hackers in it's timeline to have some messages posted in ##hackers from twitter.
+
+Skuzzy's commands:
+ 	!t <url> #Website Title lookup
+	!t 		 #Website Title lookup - most recent URL posted in the channel.
+	s/oldtext/newtext/  #Replace the most recent oldtext posted with newtext
+	ahoy #Ahoy sailor!
+	.tweet <something> #post a message on twitter
+	catpics  #I haz catz
+	cert 	# Censys.io certificate information lookup 
+	roulette #mentioning this word at any point will have skuzzy post a known malware URL (might have been taken down by the time skuzzy posts it)
+	.xbt,.xmr,.zec,.eth  #these commands will have skuzzy post the current USD trading price for each crypto currency
+	.admin # Administrator commands
+		.admin <ban|unban|voice|devoice|quiet|unquiet|kick> <nickname> # self explanatory
+		.admin tooloud  #stop autovoicing users
+		.admin tooquiet #start autovoicing users
+		.admin blacklist <hostname> [Reason] #blacklist a hostname,hostnames blacklisted won't be autovoiced
+		.admin whitelist <hostname> #add a hostname to a whitelist, this has precedence over blacklist
+		.admin voiceall #voice all nicks currently not auto-voiced due to blacklist or anti-spam detection.
+		.admin say <something> #say something \o/
