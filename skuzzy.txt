@@ -13,7 +13,7 @@ Skuzzy's commands:
 	!t 		 #Website Title lookup - most recent URL posted in the channel.
 	s/oldtext/newtext/  #Replace the most recent oldtext posted with newtext
 	ahoy #Ahoy sailor!
-	.tweet <something> #post a message on twitter
+	.tweet <something> #post a message on twitter (yes anyone can tweet,please tweet responsibly)
 	catpics  #I haz catz
 	cert.search 	# Censys.io certificate common-name search
 	cert.sha2	# Censys.io certificate sha256 fingerprint search
