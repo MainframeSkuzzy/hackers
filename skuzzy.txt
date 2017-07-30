@@ -15,7 +15,8 @@ Skuzzy's commands:
 	ahoy #Ahoy sailor!
 	.tweet <something> #post a message on twitter
 	catpics  #I haz catz
-	cert 	# Censys.io certificate information lookup 
+	cert.search 	# Censys.io certificate common-name search
+	cert.sha2	# Censys.io certificate sha256 fingerprint search
 	roulette #mentioning this word at any point will have skuzzy post a known malware URL (might have been taken down by the time skuzzy posts it)
 	.xbt,.xmr,.zec,.eth  #these commands will have skuzzy post the current USD trading price for each crypto currency
 	.admin # Administrator commands
