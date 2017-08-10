@@ -14,495 +14,207 @@
 <div id='title'>Alienvault&#8482; Open Threat Exchange pulses</div>	
 
 <div id='otx'>
-<div id='otxpost'> Name: ElmersGlue Ransomware // Description: This is a ransomware application that locks the users computer and attempts to extort bitcoins for an unlock key. The computer can be UNLOCKED WITHOUT PAYING. See this report for details: http://ringzerolabs.blogspot.com/2017/07/elmersglue3exe.html // Refs.: http://ringzerolabs.blogspot.com/2017/07/elmersglue3exe.html , https://youtu.be/x11AQ3iu8dI // IoC: https://privateer.one/threatintel/683432925865842596983463929.json</div>
-<div id='otxpost'> Name: Footprints of Fin7 // Description: In our initial two-part blog series on FIN7 we covered network activity patterns, payloads, and defensive best practices. FIN7 is a financially-motivated threat actor targeting large organizations that process payment card data or have a significant point of sale environment. // Refs.: https://www.icebrg.io/blog/footprints-of-fin7-iocs ,  // IoC: https://privateer.one/threatintel/462842464369989358368424.json</div>
+<div id='otxpost'> Name: Analysis of New GlobeImposter Ransomware Variant  | Fortinet Blog // Description: Over the past few days, FortiGuard Labs captured a number of JS (JavaScript) scripts. Based on my analysis, they were being used to spread the new GlobeImposter ransomware variants.  I picked one of them and did a quick analysis. The version of the variant I reviewed is &quot;726&quot;.Figure 1 shows part of the JS file list that we captured.  As you can see, the files with name that start with &quot;IMG_&quot; and &quot;NIC&quot; are all GlobeImposter downloaders. // Refs.: https://blog.fortinet.com/2017/08/05/analysis-of-new-globeimposter-ransomware-variant // IoC: https://privateer.one/threatintel/465462553356444365383468.json</div>
+<div id='otxpost'> Name: GlobeImposter // Description: This pulse will contain  purely GlobeImposter (all variants spawned out of it as well) exclusively. // Refs.: https://twitter.com/LawrenceAbrams/status/894604410097152001 // IoC: https://privateer.one/threatintel/6554836254369334482492635824495.json</div>
+<div id='otxpost'> Name: The return of Mamba ransomware // Description: Mamba aka HDD Cryptor. // Refs.: https://securelist.com/the-return-of-mamba-ransomware/79403/ // IoC: https://privateer.one/threatintel/88628638322852398965336829386558.json</div>
+<div id='otxpost'> Name: Spoofed HMRC Company Excel Documents delivers Trickbot // Description:  // Refs.: https://myonlinesecurity.co.uk/another-spoofed-hmrc-company-excel-documents-delivers-trickbot/#U1 // IoC: https://privateer.one/threatintel/958882284285235862852949.json</div>
+<div id='otxpost'> Name: Open Shortest Path First (OSPF) protocol implementations may improperly determine LSA recency // Description:  // Refs.: </div>
+<div id='otxpost'> Name: Cobalt Group using Petya themed spearphish topics // Description:  // Refs.: https://cys-centrum.com/ru/news/activity_of_cobalt_summer_2017 // IoC: https://privateer.one/threatintel/35999546856523664942442429932.json</div>
+<div id='otxpost'> Name: Phishing Email - Subject: Security Message // Description: Phishing email with pdf attachment, malicious embedded links. // Refs.: https://www.hybrid-analysis.com/sample/4800f962f1742ad91e905331d1681238566b91408f0eef7c08ff13344396a153?environmentId=100 , https://urlquery.net/queue/3843546e-5ca6-4cd5-94f1-85b122963874 // IoC: https://privateer.one/threatintel/46263644536255839569938639935.json</div>
+<div id='otxpost'> Name: Hancitor Phishing Links - Updated 8-8-17 // Description:  // Refs.: managedthreatintelligence.com ,  // IoC: https://privateer.one/threatintel/366468433568259899324634326.json</div>
+<div id='otxpost'> Name: WARHORSE Campaign - Swabfex Downloader // Description: Received emails this morning containing a zip file from &amp;quot;&amp;lt;Ricoh Scanner&amp;gt;@&amp;lt;Domain&amp;gt;.local&amp;quot;Javascript contains multiple strings with &amp;quot;Warhorse&amp;quot; and the term &amp;quot;Valar&amp;quot;. Possibly relating to Game of Thrones Season 2 Episode 10? // Refs.:  , https://www.javascriptanalysis.net/honeybadger/default/result/4ae94e2cd05bd07a9533117be8f9a0ee/838 // IoC: https://privateer.one/threatintel/6222438928685565895854.json</div>
 <div id='otxpost'> Name: Malicious Scanbox Host // Description: URL hosting the Scanbox exploit kit // Refs.:  // IoC: https://privateer.one/threatintel/9993439944269368986586459.json</div>
+<div id='otxpost'> Name: KingKong.dll - Recent PoisonIvy and PlugX variants targeting South East Asia // Description: The Vietnamese government published a brief analysis of spearphishes it had encountered in 2017, such as &amp;quot;APEC-SMEWG Strategic Plan 2017-2020.doc&amp;quot;. This pulse includes indicators from this analysis, and indicators from other campaigns that employ related malware.The attackers deliver malware through topically titled spearphises, for example &amp;quot;Energy_Data_Meeting_fall_2016&amp;quot;. Many documents call out to tetrasecured[.]com/word/webstat/image.php?id= (sinkholed by AlienVault) to track when when they are opened. This domain also contains pages to phish credentials for popular online mail providers such as Gmail and Yahoo. It is likely these spearphishes are generated via a builder - so attribution to an exact group of attackers may be incorrect.Recent variants drop distinctively named malware such as KingKong.dll. // Refs.: http://stnmt.bacninh.gov.vn/documents/57412/11672469/420-STTTT.pdf ,  // IoC: https://privateer.one/threatintel/46582999956442228329989.json</div>
+<div id='otxpost'> Name: Visiting the Bear Den (2016) // Description:  // Refs.: https://www.welivesecurity.com/wp-content/uploads/2016/06/visiting_the_bear_den_recon_2016_calvet_campos_dupuy-1.pdf // IoC: https://privateer.one/threatintel/35863224645958454656599439.json</div>
+<div id='otxpost'> Name: Dridex AtomBombing in detail - Yara // Description: Dridex has evolved, and now Dridex V4 uses Atom Bombing to perform process injection.This method allows Dridex to perform sneaky injections to evade AV solutions.In this post, we are going to explain how Dridex gain persistence in the system and how Dridex performs AtomBombing in detail. // Refs.: http://reversingminds-blog.logdown.com/posts/2125985-dridex-atombombing-in-detail // IoC: https://privateer.one/threatintel/3636598645856562853889.json</div>
+<div id='otxpost'> Name: Unauthorized Router Access logs, Scans // Description: Includes attempted remote access to our internal network and resources as well as DDoSs, unauthorized pen testing, known exploits, etc. These logs come from a small business located in MN, USA. We do not run a public web server (just a Remote Users portal, company VPN), etc (all very normal things for a small, local business). // Refs.: Server logs // IoC: https://privateer.one/threatintel/953559324589383945898.json</div>
+<div id='otxpost'> Name: PhishTank - Dynamic List of Verified/Online IRS (Internal Revenue Service) Phishing URLs // Description: This is an automated process that is updated hourly by the Vertek MTI Labs Team. We pull all active/online and verified phishing URLs from phishtank API and parse the file for URLs reported as IRS phishing scams. These indicators are then written in json format and the pulse is updated via the OTX API. URLs that drop off the active list will be marked as expired. This is a work in progress.  Please test accordingly and use at your own discretion. // Refs.: managedthreatintelligence.com , phishtank.com // IoC: https://privateer.one/threatintel/85949492354296588853329433.json</div>
+<div id='otxpost'> Name: Backdoor.Rifelku // Description:  // Refs.: https://www.symantec.com/security_response/earthlink_writeup.jsp?docid=2016-022411-5754-99 // IoC: https://privateer.one/threatintel/245294329668638333634323.json</div>
+<div id='otxpost'> Name: InfoSec Handlers Diary Blog - Internet Storm Center Diary 2017-08-09 // Description:  // Refs.: https://isc.sans.edu/diary.html // IoC: https://privateer.one/threatintel/69295465436853989958642466855.json</div>
+<div id='otxpost'> Name: xCaon SpecCom Variant // Description:  // Refs.: https://securelist.com/apt-trends-report-q2-2017/79332/ // IoC: https://privateer.one/threatintel/243499394663239825586288539283.json</div>
+<div id='otxpost'> Name: Vertek - Locky Indicators Aug 2017 // Description: encrypts with extension .DIABLO6 // Refs.: managedthreatintelligence.com // IoC: https://privateer.one/threatintel/563553598284989253622846866383.json</div>
+<div id='otxpost'> Name: Logistiekcom Phishing/Malware/Ransomware // Description: Campaign using phishingmails pretending to be missed parcel-delivery messages in an attempt to lure the victim to click on a link inside the mail, spreading malware (likely ransomware Serpent, highly likely to be related to GNL/WildFire/HadesLocker group) // Refs.: https://www.fraudehelpdesk.nl/alerts/mail-afspraak-pakketlevering-linke-soep/ // IoC: https://privateer.one/threatintel/8342453962652856398546533492432.json</div>
+<div id='otxpost'> Name: Vulnerability Note VU#793496 - Open Shortest Path First (OSPF) protocol implementations may improperly determine LSA recency // Description:  // Refs.: http://www.kb.cert.org/vuls/id/793496 // IoC: https://privateer.one/threatintel/424928835393236236935245433432268685.json</div>
+<div id='otxpost'> Name: Rescoms Backdoor // Description: Backdoor that installs itself at %Application Data%\remcos // Refs.: https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/bkdr_rescoms.ai , https://www.microsoft.com/en-us/security/portal/Threat/Encyclopedia/Entry.aspx?Name=Backdoor:Win32/Rescoms.A // IoC: https://privateer.one/threatintel/4238966862925484858558393242.json</div>
+<div id='otxpost'> Name: Cerber ransomware delivered in format of a different order of Magnitude // Description: The Magnitude exploit kit has been using an XML configuration file critical to retrieving the malware payload (Cerber) for several months already. Magnitude EK is notorious for distributing the Cerber ransomware specifically to certain geolocations, and in particular South Korea, via its own gate, called Magnigate. For a while, we have noticed that Magnitude EK has been using Internet Explorer vulnerabilities without necessarily resorting to Flash exploits. Another interesting artifact part of the EK flow is the use of an XML configuration file which contains JScript code. // Refs.: https://blog.malwarebytes.com/threat-analysis/2017/08/cerber-ransomware-delivered-format-different-order-magnitude/amp/ // IoC: https://privateer.one/threatintel/82625952658625685458329443.json</div>
+<div id='otxpost'> Name: Turla PNG Dropper // Description: The dropper family, referred to internally as PNG_dropper, was observed being used as a second stage tool in different targeted attacks.  One of final payloads that is created by this dropper is an Uroburos variant used by the Turla group, which traditionally operates out of Russia.  This technique is being used to allow the attackers to conceal their secondary payloads, bypassing different AV products.  Attackers, regardless of their skills and motives, often attempt to wrap malicious code in a way that will seem innocuous to practitioners and security products. // Refs.: https://www.carbonblack.com/2017/08/07/threat-analysis-carbon-black-threat-research-dissects-png-dropper/ // IoC: https://privateer.one/threatintel/56396353583382424856963283.json</div>
+<div id='otxpost'> Name: Malware-Traffic-Analysis.net - 2017-08-07 - Fake BBB malspam uses goo.gl links to send JavaScript file // Description: From Malware Traffic Analysis:Earlier today, two different people notified the Internet Storm Center (ISC) through our contact form about malicious spam (malspam) impersonating the Better Business Bureau (BBB).  These fake BBB emails had links using the Google URL shortner that delivered a malicious JavaScript (.js) file.In both cases, the fake BBB malspam was sent to personnel in the targeted organizations&amp;#39; HR departments.  I only saw HTTPS infection traffic generated by this malspam, and I didn&amp;#39;t notice any alerts on the network traffic. // Refs.: http://www.malware-traffic-analysis.net/2017/08/07/index.html // IoC: https://privateer.one/threatintel/45932386844669452384228923356428.json</div>
+<div id='otxpost'> Name: SwordShieldListOfMaliciousDomains/IPs // Description: This is a list of Domains or IPs that we have seen linked to Phishing websites, Exploit Kit domains, Command and Control Servers, and compromised websites. // Refs.: OTXswordshield.csv // IoC: https://privateer.one/threatintel/269966656832446246938358883633666.json</div>
+<div id='otxpost'> Name: ElmersGlue Ransomware // Description: This is a ransomware application that locks the users computer and attempts to extort bitcoins for an unlock key. The computer can be UNLOCKED WITHOUT PAYING. See this report for details: http://ringzerolabs.blogspot.com/2017/07/elmersglue3exe.html // Refs.: http://ringzerolabs.blogspot.com/2017/07/elmersglue3exe.html , https://youtu.be/x11AQ3iu8dI // IoC: https://privateer.one/threatintel/683432925865842596983463929.json</div>
+<div id='otxpost'> Name: Fake quotation request leads to Phishing for email credentials  My Online Security // Description: From My Online Security:We see lots of phishing attempts for email credentials. This one is slightly different than many others . It pretends to be a message from a company asking for a quotation. When you open the attached html file you eventually get redirected to a fake log in page. // Refs.: https://myonlinesecurity.co.uk/fake-quotation-request-leads-to-phishing-for-email-credentials/ // IoC: https://privateer.one/threatintel/589849963355953486553642465.json</div>
+<div id='otxpost'> Name: Further Gaza Cybergang Activity // Description:  // Refs.: http://www.freebuf.com/vuls/142970.html // IoC: https://privateer.one/threatintel/62586962845842968853499.json</div>
+<div id='otxpost'> Name: Linux.Rekoobe variant // Description: Linux.Rekoobe variant // Refs.:  // IoC: https://privateer.one/threatintel/545999468226462545999285395.json</div>
+<div id='otxpost'> Name: Indicators Associated with Ransomware Attack Potentially Modeled after Petya // Description: According to numerous open-source reports, a widespreadransomware campaign is affecting various organizations in the UnitedStates, France, India, Russia, Spain, Ukraine, and the United Kingdom.Initial open-source reporting detailed a potential variant of the Petyaransomware was being utilized in the attack and demanded a ransomof $300 US worth of bitcoin.Open-source reports indicate the new ransomware employs the sameEternalBlue exploit used by WannaCry ransomware, allowing it tospread quickly and infect additional systems. Published by the ShadowBrokers in April 2017, the vulnerability targets Windows&#x27; SMB filesharingsystem. Microsoft issued a patch for the MS17-010 SMBvulnerability on March 14, 2017. In addition to leveraging the ServiceMessage Block (SMB) vulnerability, the ransomware also useswmic/PSExec to move between computers on a local network. // Refs.: https://www.hybrid-analysis.com/sample/eae9771e2eeb7ea3c6059485da39e77b8c0c369232f01334954fbac1c186c998 // IoC: https://privateer.one/threatintel/58624968642986699594945829386344.json</div>
+<div id='otxpost'> Name: Footprints of Fin7 // Description: In our initial two-part blog series on FIN7 we covered network activity patterns, payloads, and defensive best practices. FIN7 is a financially-motivated threat actor targeting large organizations that process payment card data or have a significant point of sale environment. // Refs.: https://www.icebrg.io/blog/footprints-of-fin7-iocs ,  // IoC: https://privateer.one/threatintel/462842464369989358368424.json</div>
 
 </div>
 <div id='title'>Security news and threat intelligence from Twitter&#8482; </div>	
 
 <div id='twitter'>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/PrivhaNiiE Hashes: 100 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895462545741332480</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/ksyPhshyja Emails: 2 Hashes: 113 E/H: 0.02 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895460561760026625</div>
-<div id='twitterentry'>@GitHub Status:</br>
-Everything operating normally. https://twitter.com/githubstatus/status/895460101850451971</div>
 <div id='twitterentry'>@Jake Williams:</br>
-I&#x27;m sorry, let me back up. This is part of operation &quot;because I said so&quot; https://t.co/Mg33GQaQG5 https://twitter.com/MalwareJake/status/895464768105922560</div>
-<div id='twitterentry'>@Trend Micro ANZ:</br>
-#Pharming is a process of setting up a website that looks like a legitimate site in order to capture confidential i... https://t.co/pIpzCgS5ic https://twitter.com/TrendMicroANZ/status/895464748816277504</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/fL3aZApRXN Hashes: 81 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895463415694712832</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,29256,Syrian Telecom,-,Outage affected 232 prefixes, https://t.co/3RffFs92mw https://twitter.com/bgpstream/status/895467619964174337</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,SY,Syrian Arab Republic,-,Outage affected 90 prefixes, https://t.co/RDP8yqsdin https://twitter.com/bgpstream/status/895467611353382912</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/VvNrmaIq43 Emails: 27 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895467570601394181</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/2b9GtFeETq Hashes: 185 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895467143709556736</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-WakaTime disclosed a bug submitted by reydd: https://t.co/YAAGm6d44h #hackerone #bugbounty https://t.co/JXxXgCIQVv https://twitter.com/disclosedh1/status/895468558850953217</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-WakaTime disclosed a bug submitted by reydd: https://t.co/CaWvTExcuW #hackerone #bugbounty https://t.co/ciUA2XYM25 https://twitter.com/disclosedh1/status/895468554048458752</div>
-<div id='twitterentry'>@Threatpost:</br>
-.@SAP Visual Composer vuln could let attacker inject/run code, modify data, create new users, escalate privileges -... https://t.co/L5xkDsxJMy https://twitter.com/threatpost/status/895468493524652034</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/VgrD79jiyA Emails: 100 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895473625838608384</div>
-<div id='twitterentry'>@Threatpost:</br>
-ICYMI: The Mamba #ransomware is back. Spotted in Brazil/Saudi Arabia. Same ransomware that brought @SFMTA_MUNI down. https://t.co/WsFvwibwlC https://twitter.com/threatpost/status/895476045842972672</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/irlP1MX6UG Emails: 6555 Keywords: 0.22 #infoleak https://twitter.com/dumpmon/status/895474615677595648</div>
-<div id='twitterentry'>@Jake Williams:</br>
-Hey @FBI, can you let us know when it&#x27;s legal to hack North Korea? I&#x27;d just assume we&#x27;re cool and all, but you know, jail and stuff... https://twitter.com/MalwareJake/status/895482104934518784</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @TuckerMattR: Facebook bought a VPN &amp;amp; used it to surveil mobile usage. Tell me again how they&#x27;re making the world more open. cc @profcar... https://twitter.com/matthew_d_green/status/895484778866200576</div>
-<div id='twitterentry'>@Jake Williams:</br>
-I love @zackwhittaker reporting, but they named the tool slang for penis. How is that not in the story? https://t.co/TqTxyg18OG https://twitter.com/MalwareJake/status/895484101674893314</div>
-<div id='twitterentry'>@Trend Micro ANZ:</br>
-RT @Ciberseguridad_: Come visit us at CLOUDSEC next week! James Culverhouse and Mike Holm will be presenting at 3:30pm https://t.co/CmC1YY8... https://twitter.com/TrendMicroANZ/status/895482627964239872</div>
-<div id='twitterentry'>@US-CERT:</br>
-Juniper Networks Releases Junos OS Security Updates https://t.co/N2fQPdZ3mk https://twitter.com/USCERT_gov/status/895495308913688577</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @binitamshah: Quantum Key-Recovery on full AEZ Encryption :  https://t.co/GeyNAydUDC (pdf) https://twitter.com/matthew_d_green/status/895491341739753472</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @mattblaze: Car in traffic jam (at this hour?) outside my Boston hotel window is honking M O V E in Morse code. https://twitter.com/matthew_d_green/status/895489874165411842</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @instacyber: I mean, who DOESN&#x27;T use VirusTotal as a free cloud backup service with added anti-virus scanning? https://twitter.com/matthew_d_green/status/895489611732013056</div>
-<div id='twitterentry'>@Anonymous:</br>
-RT @Photog_NateHart: @YourAnonNews  https://t.co/ENkxh5LW9J https://twitter.com/YourAnonNews/status/895489325630181380</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @ericlaw: Got @googlechrome Canary? Insecure field edit warnings landed last night: https://t.co/nVN1W6ER0U https://twitter.com/matthew_d_green/status/895489319552655360</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/AZUXFYMn9W Hashes: 175 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895489008792473600</div>
-<div id='twitterentry'>@Anonymous:</br>
-Today: Trump vs. Kim Jung-un troll war continues.  Kim retorts with threat about Guam.  Trump can&#x27;t find Guam on a... https://t.co/Rl9HwL4nZO https://twitter.com/YourAnonNews/status/895488956892106753</div>
-<div id='twitterentry'>@Anonymous:</br>
-Someone doesn&#x27;t know how Twitter works.  Retweet so he can call the police on YOU too! #LuLz https://t.co/fxtdLwLBl7 https://twitter.com/YourAnonNews/status/895487909276647424</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @Straithe: I&#x27;d say something clever, but this person&#x27;s recount of how they tracked their crush is terrifying. 
-
-https://t.co/plqZbbftfP https://twitter.com/matthew_d_green/status/895486514481827840</div>
-<div id='twitterentry'>@Darknet Feed:</br>
-Is there a way to check out private Facebook/instagram private profiles on the dark net ? via /r/onions https://t.co/bqUfEr6Njt https://twitter.com/darknet_feed/status/895485995180843008</div>
-<div id='twitterentry'>@Trend Micro ANZ:</br>
-.@TrendLabs :: New #WannaCry-mimicking SLocker abuses QQ services https://t.co/aMjxVThfxl https://t.co/uT7EYjE3Xb https://twitter.com/TrendMicroANZ/status/895498696565063680</div>
-<div id='twitterentry'>@BleepingComputer:</br>
-Owners of vDos, Largest DDoS-For-Hire Service, Officially Charged in Israel
-https://t.co/6NsQqjWOAV https://twitter.com/BleepinComputer/status/895502511569862656</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/0uVa7Aoqnl Emails: 54 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895504411358834688</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,263244,Iperactive SA,-,Outage affected 24 prefixes, https://t.co/QLWyEDpC5f https://twitter.com/bgpstream/status/895503851578687488</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/u6gudH5G7R Hashes: 79 Keywords: -0.06 #infoleak https://twitter.com/dumpmon/status/895506139126927360</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-&quot;contain&quot; property coming to CSS https://t.co/w81Y9senLY https://t.co/aYzcSZvH3t https://twitter.com/campuscodi/status/895510022687305728</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/bqMZktv5pZ Emails: 100 Keywords: 0.3 #infoleak https://twitter.com/dumpmon/status/895511965027663872</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by xifengweiyu: https://t.co/GnadYk1KtC - Bounty: $100 #hackerone... https://t.co/mDUD5RkBzQ https://twitter.com/disclosedh1/status/895513983825956864</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by xifengweiyu: https://t.co/0JwluCJcbt #hackerone #bugbounty https://t.co/XBXecf8pGQ https://twitter.com/disclosedh1/status/895513979723952128</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by seifelsallamy: https://t.co/nA973dKX3E #hackerone #bugbounty https://t.co/JAyFvbmlfE https://twitter.com/disclosedh1/status/895513976313962496</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by paulos_: https://t.co/zVptRpI90A #hackerone #bugbounty https://t.co/TKZPvYYgIo https://twitter.com/disclosedh1/status/895513972325142528</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by dhiraj-mishra: https://t.co/UVhqyCGXlz #hackerone #bugbounty https://t.co/6mLDP82jDy https://twitter.com/disclosedh1/status/895513967619133440</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by cybr0: https://t.co/WMkF8njKXw #hackerone #bugbounty https://t.co/Mp5FXJW0xf https://twitter.com/disclosedh1/status/895513963894644736</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by konduru-jashwanth: https://t.co/7JIGQmelGs #hackerone #bugbounty https://t.co/HzGkfMWjAx https://twitter.com/disclosedh1/status/895513959121514496</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Brave Software disclosed a bug submitted by ranjith16: https://t.co/i5XLetvEEn #hackerone #bugbounty https://t.co/8dwWP8vkgs https://twitter.com/disclosedh1/status/895513955019493376</div>
-<div id='twitterentry'>@Patrick C Miller:</br>
-Maybe Americans don&#x27;t need fast home Internet service, FCC suggests https://t.co/vzUmVRklBW https://twitter.com/PatrickCMiller/status/895513811733663746</div>
-<div id='twitterentry'>@Trend Micro ANZ:</br>
-#CLOUDSEC Platinum, Gold &amp;amp; Silver Sponsors @vmwareau @AWScloud @nutanix @StorageCraft @MicrosoftAU @gigamon... https://t.co/3kiL71RvE6 https://twitter.com/TrendMicroANZ/status/895513796080480256</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @BleepinComputer: Locky Ransomware Returns with Spam Campaign Pushing Diablo6 Variant
-https://t.co/hDAa5NoM91 https://twitter.com/malwrhunterteam/status/895518125851987968</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @DanielGallagher: @demonslay335 Seems there are some sites infected out in the wild. https://t.co/G29rWvLSIn https://twitter.com/malwrhunterteam/status/895517552083959808</div>
-<div id='twitterentry'>@Microsoft MMPC:</br>
-New #TechSupportScam spotted. Don&#x27;t fall for the scam! Microsoft error messages never include a phone number.... https://t.co/qCoZXVyflN https://twitter.com/msftmmpc/status/895516482334932993</div>
-<div id='twitterentry'>@3ncr1pt3d:</br>
-RT @Nick_Aleks: Another great night! It was an absolute pleasure hosting @defcon_toronto this month! Can&#x27;t wait to out-do ourselves again n... https://twitter.com/3ncr1pt3d/status/895520653373255680</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @424f424f: @Viss Lol. I would hope their entire red team picks up and leaves. https://twitter.com/malwrhunterteam/status/895520021623054336</div>
-<div id='twitterentry'>@3ncr1pt3d:</br>
-Much respect &amp;amp; thanks to @riskybusiness  for calling out unacceptable &quot;dude bros&quot; behaviour, sexism at Blackhat, and the damage done. https://twitter.com/3ncr1pt3d/status/895519866559574016</div>
-<div id='twitterentry'>@3ncr1pt3d:</br>
-Locky is back ... https://t.co/DbSSdir77O https://twitter.com/3ncr1pt3d/status/895522009618288640</div>
-<div id='twitterentry'>@Patrick C Miller:</br>
-UK Law Proposal to Criminalize Re-Identification of Anonymized User Data https://t.co/vRH6vSPwXu https://twitter.com/PatrickCMiller/status/895521369479426048</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/aItwq6b5HG Hashes: 40 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895525157456007168</div>
-<div id='twitterentry'>@3ncr1pt3d:</br>
-Incase you thought mainframes were boring ... https://t.co/SWq4NhkuVj https://twitter.com/3ncr1pt3d/status/895525010487562243</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @TheActualAlexR: Same campaign, fake flash update.. analysis soon. URL: http://tvoypozitiv[.]ru/tab[.]php, https://t.co/xJHQxHrpLz @malw... https://twitter.com/malwrhunterteam/status/895524950609735680</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/6lsmd4wViH Emails: 104 Keywords: 0.33 #infoleak https://twitter.com/dumpmon/status/895524546173972485</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Racco42: #nanocore #rat sample
-https://t.co/CDyHJpA6cy
-@malwrhunterteam @Antelox https://twitter.com/malwrhunterteam/status/895524498065240065</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Racco42: #LokiBot from .iso :-)
-https://t.co/HOKhR9WHLk
-C2: hxxp://kc.lamunikalot.com:80/work/fre.php
-@malwrhunterteam https://twitter.com/malwrhunterteam/status/895524457460228097</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Racco42: #LokiBot in another .iso
-https://t.co/rYlonKmMse
-C2: hxxp://247logss.info:80/henrik/wp-content/Panel/five/fre.php
-@malwrhunter... https://twitter.com/malwrhunterteam/status/895524276970946561</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Racco42: #LokiBot 
-https://t.co/F6hyPyQtiQ
-C2: hxxp://multitradegroup.club:80/jamo/Panel/five/fre.php
-@malwrhunterteam https://twitter.com/malwrhunterteam/status/895524066949558272</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Racco42: #LokiBot which came in .iso
-https://t.co/fCGHe43p5F
-C2: hxxp://one.lamunikalot.com/work/fre.php
-@malwrhunterteam @Antelox @_op... https://twitter.com/malwrhunterteam/status/895523686723276800</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-Prison Time for Manager Who Hacked Ex-Employer&#x27;s FTP Server, Email Account https://t.co/6JovdH7jQ8 #hacking #FTP... https://t.co/BGl8hrnHLw https://twitter.com/campuscodi/status/895528389355855877</div>
-<div id='twitterentry'>@3ncr1pt3d:</br>
-Big lessons here in the tactics attackers used, the targeted approach - need for 2fa/mfa, monitoring key accounts
- https://t.co/RMIEn1CWPt https://twitter.com/3ncr1pt3d/status/895528038074593280</div>
-<div id='twitterentry'>@Trend Micro ANZ:</br>
-#SecurityNews :: #Ransomware Recap: A tale of two &quot;Lockers&quot;  https://t.co/ynkXCm7znV https://t.co/GdZKkENQbJ https://twitter.com/TrendMicroANZ/status/895527637111754753</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @anyrun_app: #Locky #Ransomware interactive analysis https://t.co/vFK3CvVpzu @campuscodi @malwrhunterteam #malware #diablo6 https://twitter.com/malwrhunterteam/status/895526844568621056</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/IZD4YlYDha Keywords: 0.55 #infoleak https://twitter.com/dumpmon/status/895531241264619521</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/6APT0ldtxu Hashes: 56 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895530866541285376</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-Owners of vDos, Largest DDoS-For-Hire Service, Officially Charged in Israel https://t.co/LV4sZRj4FK #DDoS #infosec... https://t.co/Jd3KVaXJGD https://twitter.com/campuscodi/status/895528829036486656</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Viss: on todays episode of &#x27;how to get all the talent to avoid you forever&#x27;.... https://t.co/1OhpeHbxib https://twitter.com/malwrhunterteam/status/895519600372310016</div>
-<div id='twitterentry'>@BleepingComputer:</br>
-Microsoft: 71% of Windows 10 Creators Update PCs Use Full Telemetry Settings
-https://t.co/LbG1lX6YKx https://twitter.com/BleepinComputer/status/895532692867076096</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/293G0rQSbA Keywords: 0.55 #infoleak https://twitter.com/dumpmon/status/895532666338111488</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,46238,WT Services, Inc.,-,Outage affected 24 prefixes, https://t.co/zPu5PLzd7s https://twitter.com/bgpstream/status/895531476170747904</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,21854,Digital Passage, Inc.,-,Outage affected 16 prefixes, https://t.co/MIwAl7UGCE https://twitter.com/bgpstream/status/895531462572855297</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/dbP09YM1dF Emails: 113 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895531345690144770</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-RT @zerosum0x0: Well, this is slightly worse than I expected... https://t.co/2KhfpGhmP4 https://twitter.com/campuscodi/status/895531317160534016</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-RT @slashdot: Top VPN Provider Accused of Sharing Customer Traffic With Online Advertisers https://t.co/hL6jl4C9hT https://twitter.com/campuscodi/status/895531275724967936</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/v6D4PiCf6q Emails: 300 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895536257014616064</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/sL4SttqeAy Emails: 300 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895536850273751040</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @SettiDavide89: 10-Aug: &quot;Remetemos, detalhes sobre seu processo juridico&quot;  #LNK  https://t.co/j6gHaGCfAg  @Certego_IRT @malwrhunterteam... https://twitter.com/malwrhunterteam/status/895540258334531584</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,52107,LLC C Point,-,Outage affected 16 prefixes, https://t.co/vMxaeJ2p82 https://twitter.com/bgpstream/status/895539950564888576</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,262242,Ufinet Costa Rica, S. A.,-,Outage affected 18 prefixes, https://t.co/leHo6YtYf3 https://twitter.com/bgpstream/status/895539943556173824</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,14283,https://t.co/n1N63t4P6Q,-,Outage affected 18 prefixes, https://t.co/N3qD5Wn59n https://twitter.com/bgpstream/status/895543626234814465</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-Top Next-Gen Security Firm Leaking Terabytes of Customer Data https://t.co/fFdxAZRrkU #databreach #dataleak #infosec https://t.co/RvmFinVWWU https://twitter.com/campuscodi/status/895542485052645377</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/LbBCbMeype Hashes: 40 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895542204130832384</div>
-<div id='twitterentry'>@Jake Williams:</br>
-RT @MalwareJake: Don&#x27;t want to get fired for a DEFCON talk? Don&#x27;t name your tool a potentially offensive slang word. #BadJudgment
-https://t... https://twitter.com/MalwareJake/status/895480808231890944</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/nXokETyj0n Emails: 14982 Keywords: 0.19 #infoleak https://twitter.com/dumpmon/status/895546216846684160</div>
-<div id='twitterentry'>@My Online Security:</br>
-Major data centre updates overnight 10 -11 August 2017 2300-0500 UTC. Site may be unavailable in that time. https://t.co/6gJLjBdo1L https://twitter.com/dvk01uk/status/895546922177527808</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/SxlUZPOWIy Emails: 1 Hashes: 31 E/H: 0.03 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895546709979385856</div>
-<div id='twitterentry'>@Darknet Feed:</br>
-Should I get an encrypted email account? via /r/deepweb https://t.co/TKLMVVFfPm https://twitter.com/darknet_feed/status/895546625686470656</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Fintotini: https://t.co/C2uGIw38PO #Gryphon #Ransomware Interactive Analysis MD5: DD337DDD0A748423E9C9EF99F291DE26 #Infosec #malware @m... https://twitter.com/malwrhunterteam/status/895549198485114881</div>
-<div id='twitterentry'>@Kaspersky Lab:</br>
-Protect your business against ransomware threats with our new and updated tool. Download for free here --&amp;gt;... https://t.co/HGS7lkVjG2 https://twitter.com/kaspersky/status/895556608528351232</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-There&#x27;s another (new?) .NET ransomware.
-Note: HOW_TO_BACK_FILES.html
-Extension: .[cho.dambler@yandex.com]... https://t.co/LkcrwOvdl5 https://twitter.com/malwrhunterteam/status/895556468887269376</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/xdoBcf89sg Emails: 302 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895556343796563968</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/GHavx1dNkX Emails: 33 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895555545645686784</div>
-<div id='twitterentry'>@Trend Micro ANZ:</br>
-Are biometric logins as safe as you might think? https://t.co/WqjzCtK9n0 #security https://twitter.com/TrendMicroANZ/status/895555314958950400</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @Morpheus______: So, that Phoenix JB writeup (From *OS Internals Vol III 1.4): https://t.co/d3PQKpxydf . Questions/Comments welcome at ht... https://twitter.com/ronindey/status/895559483782463488</div>
-<div id='twitterentry'>@My Online Security:</br>
-RT @paperghost: As always, well played everyone https://t.co/OIeDWQ0pz8 https://twitter.com/dvk01uk/status/895559369907154944</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @iamvishalch: Moving Beyond EMET II - Windows Defender Exploit Guard (by Nate Nunez)https://t.co/HU1SqMtnIi https://twitter.com/ronindey/status/895559330363256832</div>
-<div id='twitterentry'>@Bart:</br>
-RT @msftmmpc: New #Locky variant uses file name extension .diablo6 for encrypted files, leaves .htm and .bmp ransom notes, changes wallpape... https://twitter.com/bartblaze/status/895559189153632257</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @joernchen: Get ready to update your Gitlabs!
-
-https://t.co/SHOnGEUZEL https://twitter.com/ronindey/status/895559110485307393</div>
-<div id='twitterentry'>@My Online Security:</br>
-pssst don&#x27;t tell NSA or GCHQ https://t.co/4B9DWEjALJ https://twitter.com/dvk01uk/status/895558490873311232</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,25700,SWIFT VENTURES Inc,-,Outage affected 35 prefixes, https://t.co/exmqbc3eSU https://twitter.com/bgpstream/status/895558477246070784</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @teabass: Why Github can&#x27;t host the Linux Kernel Community: https://t.co/ieLE0kGgPL https://twitter.com/ronindey/status/895557383744892929</div>
-<div id='twitterentry'>@DEY!:</br>
-Do people blindly follow. Yes they do. Unless its on purpose. I am just baffled. https://t.co/BlK09Twp8Z https://twitter.com/ronindey/status/895560769999216640</div>
-<div id='twitterentry'>@Bart:</br>
-RT @juanandres_gs: Due to popular demand, @RidT @craiu @ILDannyMoore  and I&#x27;s #MoonlightMaze  SAS talk is now available to all :)
-https://t... https://twitter.com/bartblaze/status/895560711765708800</div>
-<div id='twitterentry'>@Bart:</br>
-RT @KyleHanslovan: Dropping two new Windows bins that can launch COM Scriptlets at #DerbyCon b/c regsvr32.exe is so 2016 :) #Squiblydoo htt... https://twitter.com/bartblaze/status/895560460694675457</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-@BleepinComputer @demonslay335 Sample: https://t.co/xAQrnA3dMn
-It deletes shadow copies, and as it encrypting the f... https://t.co/Zmsddf0HuN https://twitter.com/malwrhunterteam/status/895560354759032833</div>
-<div id='twitterentry'>@WikiLeaks:</br>
-Google plans to &quot;improve conversations online&quot; with comment filtering system https://t.co/1NSjNblNIS https://t.co/34laaZpSGW https://twitter.com/wikileaks/status/895564590615977984</div>
-<div id='twitterentry'>@DarkNet Markets:</br>
-Silk Road 3.1 is back: https://t.co/c2GZ1n1fsg https://twitter.com/DarkNetMarket/status/895563424041762816</div>
-<div id='twitterentry'>@Graham Cluley:</br>
-At last! Firefox puts another nail in Flash&#x27;s coffin https://t.co/CyMw6g1eEN https://t.co/JmOtUXlIlT https://twitter.com/gcluley/status/895562889351888899</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @CodeCadets: Check out our public disclosure about the 0day we found at the #BSidesCBR CTF this year: https://t.co/2SBdDiFSfg @__sw1tch_... https://twitter.com/ronindey/status/895562549449687040</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-Microsoft Just Fixed a Wormable Bug in Windows Search Affecting All OS Versions https://t.co/b9s6agMNcr #windows... https://t.co/MFEe4xepkm https://twitter.com/campuscodi/status/895567395640799232</div>
-<div id='twitterentry'>@Exploit Database:</br>
-[webapps] WebFile Explorer 1.0 - Arbitrary File Download https://t.co/n4s9Itxpas https://twitter.com/exploitdb/status/895566055615025153</div>
-<div id='twitterentry'>@Exploit Database:</br>
-[webapps] DALIM SOFTWARE ES Core 5.0 build 7184.1 - Directory Traversal https://t.co/MSaZLCRpn2 https://twitter.com/exploitdb/status/895566054390288384</div>
-<div id='twitterentry'>@Exploit Database:</br>
-[webapps] DALIM SOFTWARE ES Core 5.0 build 7184.1 - Cross-Site Scripting / Cross-Site Request https://t.co/Do6nr8VTIK https://twitter.com/exploitdb/status/895566053287186432</div>
-<div id='twitterentry'>@Exploit Database:</br>
-[webapps] DALIM SOFTWARE ES Core 5.0 build 7184.1 - User Enumeration https://t.co/PLGNKqbopx https://twitter.com/exploitdb/status/895566052117012480</div>
-<div id='twitterentry'>@Exploit Database:</br>
-[webapps] DALIM SOFTWARE ES Core 5.0 build 7184.1 - Server-Side Request Forgery https://t.co/52hsbTm6Kv https://twitter.com/exploitdb/status/895566050686713856</div>
-<div id='twitterentry'>@HackRead:</br>
-RT @thomasyarger: Hotspot Shield VPN accused of redirecting user traffic to advertisers https://t.co/sUQp6CUIvx via @hackread https://twitter.com/HackRead/status/895565658494316545</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,25700,SWIFT VENTURES Inc,-,Outage affected 35 prefixes, https://t.co/qfYGPy8kOh https://twitter.com/bgpstream/status/895569700188508160</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/rqhVRgmqPa Found possible Google API key(s) #infoleak https://twitter.com/dumpmon/status/895569541631270912</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/0wq0aqa32S Emails: 1 Hashes: 102 E/H: 0.01 Keywords: 0.22 #infoleak https://twitter.com/dumpmon/status/895568695250083840</div>
-<div id='twitterentry'>@Graham Cluley:</br>
-Is anyone else having a problem getting a second player&#x27;s Switch controller in @Overcookedgame to work? Asking for a 6 year old... https://twitter.com/gcluley/status/895568632033542144</div>
-<div id='twitterentry'>@Graham Cluley:</br>
-RT @SmashinSecurity: New Smashing Security podcast is out! &quot;Boobs, dragons and data breaches&quot; https://t.co/UenxpgK4qk https://t.co/HH7iz1cD... https://twitter.com/gcluley/status/895572748579340289</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/926MoQDcm6 Hashes: 60 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895572693931745280</div>
-<div id='twitterentry'>@Darknet Feed:</br>
-Benzos/Research Chemicals/In-an-Out-door Kush via /r/onions https://t.co/OqDLMMyfRj https://twitter.com/darknet_feed/status/895572524418957312</div>
-<div id='twitterentry'>@WikiLeaks:</br>
-CIA proposed special prosecutor to go after the media and aimed to intervene in journalism schools... https://t.co/KFBpIw8CIH https://twitter.com/wikileaks/status/895572430646689792</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/P6d8IbdXf5 Emails: 53 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895572011510095873</div>
-<div id='twitterentry'>@WikiLeaks:</br>
-CIA wanted to appoint a special prosecutor against the press and intervene in journalism schools... https://t.co/84ZUB6XTuR https://twitter.com/wikileaks/status/895571898137845761</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-Microsoft: 71% of Windows 10 Creators Update PCs Use Full Telemetry Settings https://t.co/VqbIj2vvA4 #windows... https://t.co/mUEnSQQkdf https://twitter.com/campuscodi/status/895570606544048129</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @Racco42: #spora #ransomware https://t.co/WilWzWj515 @malwrhunterteam https://twitter.com/malwrhunterteam/status/895573788577980418</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-FBI Used Booby-Trapped Video to Catch Suspected Sextortionist Hiding Behind Tor https://t.co/yf5arWICaD #Tor #FBI... https://t.co/Iz3ireRG8t https://twitter.com/campuscodi/status/895577713934827520</div>
-<div id='twitterentry'>@Virus Bulletin:</br>
-From yesterday: Five tips for submitting to Calls for Papers https://t.co/nJllIrPQRT https://t.co/chOY5XEdhn https://twitter.com/virusbtn/status/895577310824476672</div>
-<div id='twitterentry'>@Bart:</br>
-RT @daniel_bilar: Long history of CompuTrace / LoJack https://t.co/2IBER1l27x
-see @ortegaalfredo BH 2009 on anti-theft BIOS tech https://t.... https://twitter.com/bartblaze/status/895577293690634241</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/yG7mw8gPOe Hashes: 60 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895576586786877440</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @IdoNaor1: @fbacurio RAT you mentioned https://t.co/v5FFSmzJzn
-#Remcos #Jigsaw #Autoit
-Tools + victims
-@malwrhunterteam @x0rz @BleepinCo... https://twitter.com/malwrhunterteam/status/895576531996692480</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/bCSHTike7a Keywords: 0.55 #infoleak https://twitter.com/dumpmon/status/895580679043518464</div>
-<div id='twitterentry'>@Darknet Feed:</br>
-Update via /r/deepweb https://t.co/QrFCpqa5DP https://twitter.com/darknet_feed/status/895580517894160384</div>
-<div id='twitterentry'>@James Bower (Hando):</br>
-RT @ProjectHoneynet: Until Sep 30th register for the Honeynet Workshop in Canberra at discounted rate https://t.co/AMMOYDRTuL #cyberdecepti... https://twitter.com/jamesbower/status/895578945541652481</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @AmnestyIran: Very sadly, in a shameful act by the Iranian authorities, Alireza Tajiki, arrested at 15, was executed early this morning... https://twitter.com/ronindey/status/895583300353503232</div>
-<div id='twitterentry'>@DEY!:</br>
-Malware researchers: https://t.co/XRdd9l8eYB https://twitter.com/ronindey/status/895582304227147776</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/pebDfxB72y Emails: 176 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895582299408007168</div>
-<div id='twitterentry'>@James Bower (Hando):</br>
-RT @dimitribouniol: Some Chinese USB adapters have a hidden SIM that will send a text message with GPS coordinates to track an unknowing vi... https://twitter.com/jamesbower/status/895581816228388865</div>
-<div id='twitterentry'>@beOpen:</br>
-JPPF 5.2.8: JPPF enables applications with large processing power requirements to be run on any number of... https://t.co/WNRU0xuXBk https://twitter.com/beOpen24/status/895581025090260992</div>
-<div id='twitterentry'>@beOpen:</br>
-eBay 5.13.1.1: The eBay app is packed full of features that make it easy to browse, buy, sell and manage your eBay...... https://t.co/jOtuB0sdZw https://twitter.com/beOpen24/status/895581021604675584</div>
-<div id='twitterentry'>@beOpen:</br>
-WhatsApp Messenger for Android 2.17.296: WhatsApp Messenger is a smartphone messenger available for Android and...... https://t.co/8rFlZCr6iO https://twitter.com/beOpen24/status/895581015065870337</div>
-<div id='twitterentry'>@beOpen:</br>
-Google Earth for Android 9.1.4.1: Google Earth for Android enables you to explore the globe with a swipe of your...... https://t.co/YCzpZLXmrt https://twitter.com/beOpen24/status/895581005284753408</div>
-<div id='twitterentry'>@Virus Bulletin:</br>
-Blog: Throwback Thursday: Ten memorable Virus Bulletin conference presentations - part 2 https://t.co/9eNXbSd1EL https://t.co/rG2vrzPtQF https://twitter.com/virusbtn/status/895585725219057664</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @ProjectZeroBugs: Microsoft Edge: textarea.defaultValue memory disclosure https://t.co/XfK8UVdpC4 https://twitter.com/ronindey/status/895584966318460928</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @cynicalsecurity: OpenSSH DoS vulnerability (#FreeBSD) - just out, I had literally rebooted into p20 and p21 came out! https://t.co/YbKo... https://twitter.com/ronindey/status/895584793341165568</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @SparkZheng: iOS 10.3.2 Triple_Fetch Analysis &amp;amp; another NSXPC Sandbox Escape Vulnerability: https://t.co/LwdreWJYQC Thx for @Morpheus___... https://twitter.com/ronindey/status/895584299109494784</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @anneefitz: Alireza Tajiki has been executed. Few acts genuinely &quot;shock the conscience&quot; - execution of a child offender high on the list... https://twitter.com/ronindey/status/895583356066377728</div>
-<div id='twitterentry'>@Nex ~ Claudio:</br>
-RT @GreenpeaceNZ: BREAKING: Leaked docs reveal @Statoil implicated in multi-year covert surveillance operation of @GreenpeaceNZ https://t.c... https://twitter.com/botherder/status/895588330854895616</div>
-<div id='twitterentry'>@Nex ~ Claudio:</br>
-RT @GreenpeaceNZ: BREAKING: NZ Govt implicated in oil industry&#x27;s multi-year covert spy operation on Greenpeace https://t.co/4AyN3CFbmR #nzp... https://twitter.com/botherder/status/895588206686744576</div>
-<div id='twitterentry'>@0day Today Database:</br>
-#0daytoday #DALIM SOFTWARE ES Core 5.0 build 7184.1 - User Enumeration Exploit [webapps #exploits #0day #Exploit] https://t.co/ZekRtLVGVP https://twitter.com/inj3ct0r/status/895586043906236416</div>
-<div id='twitterentry'>@0day Today Database:</br>
-#0daytoday #DALIM SOFTWARE ES Core 5.0 build 7184.1 - Cross-Site Scripting / Cross-Site Request Vul [#0day #Exploit] https://t.co/FGCx5Gc0Ru https://twitter.com/inj3ct0r/status/895586042559909888</div>
-<div id='twitterentry'>@0day Today Database:</br>
-#0daytoday #DALIM SOFTWARE ES Core 5.0 build 7184.1 - Directory Traversal Vulnerability [#0day #Exploit] https://t.co/EpxwhcXkFR https://twitter.com/inj3ct0r/status/895586040706093056</div>
-<div id='twitterentry'>@0day Today Database:</br>
-#0daytoday #DALIM SOFTWARE ES Core 5.0 build 7184.1 - Server-Side Request Forgery Vulnerability [#0day #Exploit] https://t.co/vphr5Z5Oo5 https://twitter.com/inj3ct0r/status/895586039271522304</div>
-<div id='twitterentry'>@0day Today Database:</br>
-#0daytoday #WebFile Explorer 1.0 - Arbitrary File Download Vulnerability [webapps #exploits #Vulnerability #0day... https://t.co/3U3O4Qdyd1 https://twitter.com/inj3ct0r/status/895586037887455233</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @illegalFawn: @PayPalInfoSec @paypal daily #phishing
-https://t.co/m3lKj9jkRc
-@malwrhunterteam @douglasmun @SwiftOnSecurity https://t.co/... https://twitter.com/malwrhunterteam/status/895590328446660608</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @illegalFawn: @apple @AppleSupport daily #phishing
-https://t.co/UraYh55TDO
-@malwrhunterteam @douglasmun @SwiftOnSecurity https://t.co/kF... https://twitter.com/malwrhunterteam/status/895590311568842752</div>
-<div id='twitterentry'>@beOpen:</br>
-Google Translate 5.11.0: * Type to translate 90 languages * Use your camera to translate text instantly in 26...... https://t.co/9wSel2kjIL https://twitter.com/beOpen24/status/895589329107427328</div>
-<div id='twitterentry'>@beOpen:</br>
-News Republic for Android 7.10.4: Get complete up-to-the-minute daily breaking news coverage and headlines from...... https://t.co/DdhPUoOYND https://twitter.com/beOpen24/status/895589322144882689</div>
-<div id='twitterentry'>@beOpen:</br>
-Google Calendar for Android 5.7.33: The Calendar app displays events from each of your Google Accounts that...... https://t.co/kZet7pFkIC https://twitter.com/beOpen24/status/895589315283046401</div>
-<div id='twitterentry'>@Virus Bulletin:</br>
-Mamba ransomware returns to attack large corporations https://t.co/xnLgNelukC https://t.co/bGvW9sE7Z9 https://twitter.com/virusbtn/status/895594936912969728</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,133652,Zapbytes Technologies Pvt. Ltd.,-,Outage affected 50 prefixes, https://t.co/L3NTdMLHo0 https://twitter.com/bgpstream/status/895594062409027584</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,25700,SWIFT VENTURES Inc,-,Outage affected 35 prefixes, https://t.co/zc3SFcWZc5 https://twitter.com/bgpstream/status/895598231664701440</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-If anyone interested, here are some numbers from a banker&#x27;s infection log (count of victims: 800+).
-@JAMESWT_MHT... https://t.co/53ZSjLXtaw https://twitter.com/malwrhunterteam/status/895601317007114240</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/VQPWVIH7Qd Emails: 36 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895601035850469376</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/yrdH6UYZMG Emails: 75 Keywords: -0.03 #infoleak https://twitter.com/dumpmon/status/895600996742828033</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @thegrugq: Cambodian government is switching to Telegram for internal communications. This is not an enlightened decision. https://t.co/... https://twitter.com/matthew_d_green/status/895600271879000064</div>
-<div id='twitterentry'>@Jake Williams:</br>
-February to August to fix a CSRF flaw in a core government run legal website. Why can&#x27;t we have nice things?... https://t.co/JrxCFBOk12 https://twitter.com/MalwareJake/status/895599687713075201</div>
-<div id='twitterentry'>@My Online Security:</br>
-RT @anyrun_app: #Locky #Ransomware interactive analysis https://t.co/vFK3CvVpzu @campuscodi @malwrhunterteam #malware #diablo6 https://twitter.com/dvk01uk/status/895551835087523840</div>
-<div id='twitterentry'>@Jake Williams:</br>
-Yes. When can this be a feature of @uber and @lyft?! https://t.co/jRGsZiuzGN https://twitter.com/MalwareJake/status/895604630687813632</div>
-<div id='twitterentry'>@Jake Williams:</br>
-Seems like &quot;data exfiltration botnet&quot; might be over the line legally.  https://t.co/4IrCkzvocy https://twitter.com/MalwareJake/status/895603950421987328</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @JackGavigan: If you want to hear what&#x27;s coming in the next version of Zcash, @secparam will be giving a seminar tomorrow afternoon at U... https://twitter.com/matthew_d_green/status/895603895673794560</div>
-<div id='twitterentry'>@Virus Bulletin:</br>
-Two men alleged to be behind vDOS DDoS-as-a-service offering formally indicted in Israel https://t.co/4APHbiMQBn https://t.co/5ORXIx8VXQ https://twitter.com/virusbtn/status/895603774559068160</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @eveewing: &quot;oh so you have time to tweet and not time to do this major task that would actually take several hours of sustained focus&quot;... https://twitter.com/matthew_d_green/status/895602890399555584</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @illegalFawn: @googledrive @santander_br
-domain: https://t.co/WRfXeoTyvn
-file: Modulo Santander.exe
-https://t.co/i5a0bNHIPd
-VT: 1 / 63
-@... https://twitter.com/malwrhunterteam/status/895607439269257216</div>
+Mother Russia vigorously denies involvement in this attack!
+https://t.co/aorOVDraFh https://twitter.com/MalwareJake/status/895659829116649472</div>
 <div id='twitterentry'>@Ars Technica:</br>
-Health thyself: Skin-zapping chip aims to reprogram cells for tissue repair https://t.co/pY6KbKGw0K by @BethMarieMole https://twitter.com/arstechnica/status/895607164068384768</div>
-<div id='twitterentry'>@beOpen:</br>
-Nextcloud Server 12.0.1: A safe home for all your data Access &amp;amp; share your files, calendars, contacts, mail &amp;amp; more...... https://t.co/849hLV90In https://twitter.com/beOpen24/status/895606308040093697</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/ePi6K3xmDZ Hashes: 160 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895606304420573185</div>
+Alex Jones&#x27; Infowars supplements are overpriced, mundane vitamins--watered down https://t.co/zdCkL4o6pj by @BethMarieMole https://twitter.com/arstechnica/status/895659258519449600</div>
 <div id='twitterentry'>@Catalin Cimpanu:</br>
-HackinItaly: The Story Behind the Takedown of a 2,500-Strong QNAP NAS Botnet https://t.co/iLUrwizBx0 #botnet... https://t.co/jftKm9VeV3 https://twitter.com/campuscodi/status/895605842921369600</div>
-<div id='twitterentry'>@Jake Williams:</br>
-Realizing at the last possible moment that box you were getting ready to exploit is a honeypot and swerving away to... https://t.co/gdenMAE9DZ https://twitter.com/MalwareJake/status/895605840861855745</div>
-<div id='twitterentry'>@BleepingComputer:</br>
-HackinItaly: The Story Behind the Takedown of a 2,500-Strong QNAP NAS Botnet - by @campuscodi
-https://t.co/NAxpuyVG3c https://twitter.com/BleepinComputer/status/895604910552690688</div>
-<div id='twitterentry'>@Bart:</br>
-RT @objective_see: Made it to blog post #32!  Read: &quot;WTF is Mughthesec!? Poking on a Piece of Undetected Adware&quot; [?] https://t.co/bVXRRXO... https://twitter.com/bartblaze/status/895608929811656704</div>
-<div id='twitterentry'>@Jake Williams:</br>
-This is unfortunately all too common over the last few years. Important question: were they certified? https://t.co/bj27yk9W31 https://twitter.com/MalwareJake/status/895608780095971328</div>
+Videos from the SHA2017 security conference https://t.co/CsBjpEIZRr https://t.co/F1GPW8eHdG https://twitter.com/campuscodi/status/895657998508371968</div>
+<div id='twitterentry'>@Exploit Database:</br>
+[webapps] Red-Gate SQL Monitor &amp;lt; 3.10/4.2 - Authentication Bypass https://t.co/dmGYAZlnmc https://twitter.com/exploitdb/status/895656873990291456</div>
+<div id='twitterentry'>@Exploit Database:</br>
+[webapps] GIF Collection 2.0 - SQL Injection https://t.co/FLXlXK5g01 https://twitter.com/exploitdb/status/895656872732016640</div>
+<div id='twitterentry'>@Exploit Database:</br>
+[webapps] ImageBay 1.0 - SQL Injection https://t.co/I9fs3CzL7J https://twitter.com/exploitdb/status/895656871410794496</div>
+<div id='twitterentry'>@Exploit Database:</br>
+[webapps] Piwigo Plugin User Tag 0.9.0 - Cross-Site Scripting https://t.co/V7fWPWIspx https://twitter.com/exploitdb/status/895656869473034240</div>
+<div id='twitterentry'>@DEY!:</br>
+RT @Europol: Follow @NCA_UK&#x27;s excellent campaign on #modernslavery &amp;amp; #humantrafficking, launched today: https://t.co/4DQ8ZPKZtY https://t.c... https://twitter.com/ronindey/status/895656849776799744</div>
+<div id='twitterentry'>@Ars Technica:</br>
+&quot;Reprogramming cells...&quot; https://t.co/cmNZ4HdBXO https://twitter.com/arstechnica/status/895653998044295168</div>
+<div id='twitterentry'>@DarkReading:</br>
+Taking Down the Internet Has Never Been Easier https://t.co/w7ErxhkWAC https://twitter.com/DarkReading/status/895653602865405953</div>
+<div id='twitterentry'>@Graham Cluley:</br>
+ICYMI Attack on Ireland&#x27;s state-owned power provider blamed on state-sponsored hackers https://t.co/ufdHhzlP0D https://twitter.com/gcluley/status/895653519444889605</div>
+<div id='twitterentry'>@MalwareHunterTeam:</br>
+RT @r00tninja: #BizFile Phishing 
+@malwrhunterteam https://t.co/VZrHO3XoMX https://twitter.com/malwrhunterteam/status/895653079328194560</div>
+<div id='twitterentry'>@xXToffeeXx:</br>
+RT @struppigel: .@Malware_Blocker and me did an analysis video together. 
+Was fun working with you! 
+https://t.co/ppIN2XaVR6 https://twitter.com/PolarToffee/status/895652493954347008</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+He was sentenced yesterday. Got one year in prison. https://t.co/yXXxdcbjVf https://twitter.com/campuscodi/status/895652401675251712</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+The guy also had 5 accomplices, which he used to launder the money he earned https://t.co/u0KOzIMywt https://twitter.com/campuscodi/status/895652206577278976</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+Dutch police said they found EUR300,000 after a raid of his home https://t.co/5FtriZ51Hx https://twitter.com/campuscodi/status/895652021289721856</div>
+<div id='twitterentry'>@Ars Technica:</br>
+Facebook&#x27;s original video platform will launch with Nas, Mike Rowe, and MLB https://t.co/5PHwPUaBsT by @valentinalucia https://twitter.com/arstechnica/status/895651999122960385</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+These are his botnet&#x27;s capabilities, but he mainly used it for clickfraud https://t.co/yY3Wviz1Wj https://twitter.com/campuscodi/status/895651854306033664</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+Facebook posts from the same guy also confirmed interests in hacking and a technical background https://t.co/u7ciDeFBCa https://twitter.com/campuscodi/status/895651627725496322</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+If you tried to reset the password for that account, you&#x27;d get the botnet herder&#x27;s real name https://t.co/B1HlhnorQf https://twitter.com/campuscodi/status/895651474708979712</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+As usual, OpSec mistakes led to the crook&#x27;s  capture. He registered various domains with his personal Gmail address https://t.co/mwQEhFB5xO https://twitter.com/campuscodi/status/895651355452243968</div>
+<div id='twitterentry'>@MalwareHunterTeam:</br>
+Another new Oxar sample: https://t.co/6HKZy8ujvJ
+Extension: .FDP
+There is a problem with the first loop...
+... https://t.co/tgUbEIOzMA https://twitter.com/malwrhunterteam/status/895651310313160704</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+Most of the infected devices were located in Germany https://t.co/cY23d5IcXh https://twitter.com/campuscodi/status/895651135024898050</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+The malware dev used the Shellshock vulnerability to build a botnet of over 2,500 WNAP NAS devices https://t.co/1TcB1przsY https://twitter.com/campuscodi/status/895651029508702208</div>
+<div id='twitterentry'>@DarkReading:</br>
+Desperately Seeking Security: 6 Skills Most In Demand https://t.co/kEOwxIwb2O https://twitter.com/DarkReading/status/895650830778593280</div>
 <div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/0filDvGwgE Found possible Google API key(s) #infoleak https://twitter.com/dumpmon/status/895607933354070016</div>
+https://t.co/NfsUu7tUlz Emails: 147 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895649544523976710</div>
+<div id='twitterentry'>@DarkReading:</br>
+Carbon Black Refutes Claims of Flaw in its EDR Product https://t.co/dx3YseVGJq https://twitter.com/DarkReading/status/895649410822090752</div>
+<div id='twitterentry'>@Ars Technica:</br>
+Getting medieval: A military analysis of Game of Thrones&#x27; Westeros War https://t.co/D9EHNiUDkw by @thepacketrat https://twitter.com/arstechnica/status/895648690412584964</div>
+<div id='twitterentry'>@MalwareHunterTeam:</br>
+RT @HermanHarperink: @malwrhunterteam Moooore free #malware, in two rar-packed exe files. (I don&#x27;t have time to sort it out atm) Have fun.... https://twitter.com/malwrhunterteam/status/895648643654582272</div>
+<div id='twitterentry'>@Ars Technica:</br>
+NASA&#x27;s plasma rocket making progress toward a 100-hour firing https://t.co/Lgfg32fOAu by @SciGuySpace https://twitter.com/arstechnica/status/895647682148151296</div>
 <div id='twitterentry'>@SurfWatch Labs:</br>
-#Siemens to update medical scanner software to deal with security bugs | #vulnerability https://t.co/WqNJPxHdJJ https://twitter.com/SurfWatchLabs/status/895612476036874240</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,37004,Suburban-Broadband-AS,-,Outage affected 16 prefixes, https://t.co/GXTjas86eq https://twitter.com/bgpstream/status/895612381652504576</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-NEW: HackinItaly: The Story Behind the Takedown of a 2,500-Strong QNAP NAS Botnet https://t.co/iLUrwiRcoy #botnet... https://t.co/DeOLugXAVg https://twitter.com/campuscodi/status/895612337062690816</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/B1DEY1ynKa Hashes: 160 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895612218192146433</div>
-<div id='twitterentry'>@R0bert R0senb0rg:</br>
-Fresh #BTCWare aka #Gryphon sample https://t.co/jqeoqUn1dN from hxxp://soundgoodhj.info/admin.php?f=1.dat @jiriatvirlab @MichalCebak https://twitter.com/drProct0r/status/895611974599401472</div>
-<div id='twitterentry'>@Ars Technica:</br>
-Investors poured millions into a storage network that doesn&#x27;t exist https://t.co/kN3zD71kTM by @binarybits https://twitter.com/arstechnica/status/895610941706051584</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @bobcrunkhouse: @jjvincent oh god it&#x27;s literally the terrible scene in bones where a computer explodes cos a corpse uploaded &quot;malware fr... https://twitter.com/matthew_d_green/status/895610293493092353</div>
-<div id='twitterentry'>@beOpen:</br>
-Samba 4.6.7: The Samba software suite is a collection of programs that implements the SMB protocol for unix... https://t.co/2PP6J8HUaO https://twitter.com/beOpen24/status/895614986474606592</div>
-<div id='twitterentry'>@beOpen:</br>
-Tk 8.6.7: Tk is a graphical user interface toolkit that makes it possible to create powerful GUIs incredibly... https://t.co/Rc9NEgrpWw https://twitter.com/beOpen24/status/895614984348090368</div>
-<div id='twitterentry'>@Virus Bulletin:</br>
-The Magnitude exploit kit now uses binary padding to bypass security products https://t.co/QMHgVcqwj5 https://t.co/UKoRFry03C https://twitter.com/virusbtn/status/895613742423191554</div>
-<div id='twitterentry'>@Bart:</br>
-RT @defcon: Salesforce fires red team staffers who gave Defcon talk | ZDNet https://t.co/pma5cWPaf4 https://twitter.com/bartblaze/status/895613157649129472</div>
-<div id='twitterentry'>@Matthew Green:</br>
-RT @sturdyAlex: Remember that weird 6AM out-of-the-blue trans ban in the military? Well guess what was going on AT THAT EXACT MOMENT. #Trum... https://twitter.com/matthew_d_green/status/895612986060132352</div>
-<div id='twitterentry'>@My Online Security:</br>
-Spoofed Danske Bank Secure Message  malspam delivers trickbot https://t.co/ZP44EvYKSj https://t.co/SPOMJPb4Tc https://twitter.com/dvk01uk/status/895612786998480897</div>
-<div id='twitterentry'>@Jake Williams:</br>
-When NSA went to open floor plan, it was productity disaster. I expect Apple will quickly see the light. https://t.co/qLunPXNrqZ https://twitter.com/MalwareJake/status/895617552927252480</div>
-<div id='twitterentry'>@My Online Security:</br>
-@malwrhunterteam @Racco42 @PayloadSecurity @Seifreed @malware_traffic @Antelox @VK_Intel @James_inthe_box... https://t.co/D6h56Ci2sN https://twitter.com/dvk01uk/status/895616527411662848</div>
-<div id='twitterentry'>@xXToffeeXx:</br>
-RT @vsbmeza: .@Metro_Bank you can&#x27;t be serious with this! The security number I understand. But now I have to type out my password to count... https://twitter.com/PolarToffee/status/895616082668658688</div>
-<div id='twitterentry'>@xXToffeeXx:</br>
-RT @malwrhunterteam: There&#x27;s another (new?) .NET ransomware.
-Note: HOW_TO_BACK_FILES.html
-Extension: .[cho.dambler@yandex.com]
-@BleepinComp... https://twitter.com/PolarToffee/status/895583729824878592</div>
-<div id='twitterentry'>@Ars Technica:</br>
-&quot;Neutrino touch&quot; will also be the name of our ambient band https://t.co/zaFN6cbuPT https://twitter.com/arstechnica/status/895620375693766656</div>
+Alleged #vDOS Operators Arrested, Charged https://t.co/bUuMoWonpo https://twitter.com/SurfWatchLabs/status/895647435535646721</div>
+<div id='twitterentry'>@packet storm:</br>
+Microsoft Edge textarea.defaultValue Memory Disclosure https://t.co/XkfdBBlxdi #exploit https://twitter.com/packet_storm/status/895646605239627776</div>
 <div id='twitterentry'>@MalwareHunterTeam:</br>
-@Metro_Bank @troyhunt Or, I can imagine, that they only store the 3 characters in plaintext, but then it&#x27;s equally... https://t.co/JDUz80qeGq https://twitter.com/malwrhunterteam/status/895620262846124032</div>
-<div id='twitterentry'>@xXToffeeXx:</br>
-@malwrhunterteam @Metro_Bank @troyhunt .@santanderuk is at it too! Great...
-https://t.co/2VXJ7ZaIqH https://twitter.com/PolarToffee/status/895619754890637312</div>
+RT @packet_Wire: #malware .@malwrhunterteam @virustotal doesn&#x27;t see this. 53/100 reverse.it https://t.co/xtdCdi6baM https://t.co/OWbZtShkBn https://twitter.com/malwrhunterteam/status/895646560847003648</div>
+<div id='twitterentry'>@packet storm:</br>
+Red Hat Security Advisory 2017-2457-01 https://t.co/dRdAGEiuiR #advisory https://twitter.com/packet_storm/status/895646352214032386</div>
+<div id='twitterentry'>@packet storm:</br>
+The Shadow Brokers Have Made Almost $90,000 Selling Hacking Tools https://t.co/KTvGD4TbtN #news https://twitter.com/packet_storm/status/895646099050041344</div>
+<div id='twitterentry'>@packet storm:</br>
+DALIM SOFTWARE ES Core 5.0 Build 7184.1 XSS / CSRF https://t.co/DparseFATv #exploit https://twitter.com/packet_storm/status/895645845785370624</div>
+<div id='twitterentry'>@Mainframe SKuzzy:</br>
+https://t.co/jrKLKC8wxv https://twitter.com/Skuzzy_bot/status/895645823387750400</div>
+<div id='twitterentry'>@packet storm:</br>
+Customers Furious With TNT After Cyberattack Meltdown https://t.co/aM5NrIb9fe #news https://twitter.com/packet_storm/status/895645590964641792</div>
+<div id='twitterentry'>@packet storm:</br>
+DALIM SOFTWARE ES Core 5.0 Build 7184.1 File Disclosure https://t.co/FBXEN8wIT1 #exploit https://twitter.com/packet_storm/status/895645337469280256</div>
+<div id='twitterentry'>@packet storm:</br>
+Password Guru Regrets Past Advice https://t.co/gw1xGs5jsG #news https://twitter.com/packet_storm/status/895645084439519232</div>
+<div id='twitterentry'>@packet storm:</br>
+DALIM SOFTWARE ES Core 5.0 Build 7184.1 SSRF https://t.co/yMdy4yyUFH #exploit https://twitter.com/packet_storm/status/895644831296479232</div>
+<div id='twitterentry'>@packet storm:</br>
+Salesforce Sacks Security Engineers For Their Defcon Talk https://t.co/PIyOt426a1 #news https://twitter.com/packet_storm/status/895644578337914880</div>
+<div id='twitterentry'>@packet storm:</br>
+DALIM SOFTWARE ES Core 5.0 Build 7184.1 User Enumeration https://t.co/vNAPiItZPE #exploit https://twitter.com/packet_storm/status/895644325316571136</div>
 <div id='twitterentry'>@3ncr1pt3d:</br>
-RT @ZDNet: Destructive, disk-encrypting Mamba ransomware springs back to life https://t.co/3p0eydSWtn by @dannyjpalmer https://twitter.com/3ncr1pt3d/status/895619534845091842</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/hM9vlTy4zd Hashes: 151 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895619163498184704</div>
-<div id='twitterentry'>@xXToffeeXx:</br>
-.@santanderuk You may want to stop doing &quot;enter certain characters of password&quot; as it means that you probably store... https://t.co/qnEtkFERwl https://twitter.com/PolarToffee/status/895618765852889088</div>
-<div id='twitterentry'>@MalwareHunterTeam:</br>
-Looks like @Metro_Bank stores passwords in plaintext or in encrypted format (which can be decrypted).
-
-
-cc... https://t.co/07qgnEP8xO https://twitter.com/malwrhunterteam/status/895618576891092992</div>
+RT @0xmchow: And so this is the last week of my online Cyber Security course. Last topic: Malware --with shout-outs to @malwareunicorn @Malw... https://twitter.com/3ncr1pt3d/status/895643666022363138</div>
+<div id='twitterentry'>@SANS Institute:</br>
+RT @WDWilliams65: Day 4, done.  Day 5&#x27;s question: &quot;How strong is your password? How secure is your Web App?&quot;&quot; #SANSSanAntonio #SANSInstitut... https://twitter.com/SANSInstitute/status/895643150911512577</div>
+<div id='twitterentry'>@SANS Institute:</br>
+RT @eric_conrad: Thanks, Ori! Talk is here: https://t.co/OBgyhqrwnW
+#sansboston https://t.co/SisO7MVc3Q https://twitter.com/SANSInstitute/status/895643051498057728</div>
 <div id='twitterentry'>@Security Response:</br>
-Two teens arrested for allegedly running cyber attack-for-hire service vDOS https://t.co/HCDjKAILDp https://twitter.com/threatintel/status/895618293519622146</div>
+Between #BitcoinCash, and its use by the #WannaCry and #Petya crims, #Bitcoin has received a lot of attention lately https://t.co/XrilTdcaSk https://twitter.com/threatintel/status/895642409769598976</div>
+<div id='twitterentry'>@xXToffeeXx:</br>
+RT @struppigel: #LockBox #ransomware, trevinomason1@mail.com (14/65)
+https://t.co/oErT3zDU8k https://t.co/ztf8PnAHcN https://twitter.com/PolarToffee/status/895642195474219008</div>
+<div id='twitterentry'>@HackRead:</br>
+Thou shall not watch porn on Church&#x27;s computer. https://t.co/M68EjINlVV https://twitter.com/HackRead/status/895642083070955520</div>
+<div id='twitterentry'>@Jake Williams:</br>
+Evading Microsoft ATA for Active Directory domination
+https://t.co/Tk6NOmjg62 https://twitter.com/MalwareJake/status/895641302800453632</div>
+<div id='twitterentry'>@Bart:</br>
+RT @xerub: if you get rootkit-ed, blame it on your obsession with downgrades/jailbreaks  https://twitter.com/bartblaze/status/895641252523368448</div>
+<div id='twitterentry'>@MalwareHunterTeam:</br>
+RT @demonslay335: #GlobeImposter #Ransomware continues with new extensions - &quot;.BONUM&quot; https://t.co/QsRZIQBjB1 https://twitter.com/malwrhunterteam/status/895640297752977409</div>
+<div id='twitterentry'>@Patrick C Miller:</br>
+RT @k8em0: Talented security engineers are so hard to find. Allowing them to discuss their work is key to retaining the best in the field.... https://twitter.com/PatrickCMiller/status/895638632052039681</div>
+<div id='twitterentry'>@DarkReading:</br>
+6 Ways CISOs Can Play a Role in Selling Security https://t.co/8xXhWgIuxn https://twitter.com/DarkReading/status/895638537583947777</div>
+<div id='twitterentry'>@Graham Cluley:</br>
+r/t Hotspot Shield VPN accused of logging user data, selling it to advertisers https://t.co/aHfa9UURkA (via @DMBisson) https://twitter.com/gcluley/status/895638364245938176</div>
+<div id='twitterentry'>@DEY!:</br>
+RT @Paris: Attention : des prospectus frauduleux portant le logo de la Mairie de Paris circulent dans les boites aux lettres https://t.co/... https://twitter.com/ronindey/status/895637929623781377</div>
+<div id='twitterentry'>@bgpstream:</br>
+BGP,OT,393657,-Reserved AS-, ZZ,-,Outage affected 31 prefixes, https://t.co/engr0BTIxz https://twitter.com/bgpstream/status/895637272309243904</div>
+<div id='twitterentry'>@DEY!:</br>
+RT @lilyhnewman: kind of the dream to have your research called &quot;more of a plot point in a Michael Crichton novel&quot; https://t.co/6V0BKvmgcq https://twitter.com/ronindey/status/895636448162009088</div>
+<div id='twitterentry'>@DEY!:</br>
+RT @trufae: I just published &quot;Reply to the PEDA vs r2 blogpost&quot; https://t.co/ESBKlYJ3SH https://twitter.com/ronindey/status/895635898989248512</div>
+<div id='twitterentry'>@Ars Technica:</br>
+The FCC is just trolling all of us, right? https://t.co/7ANuX6WXbm https://twitter.com/arstechnica/status/895635680197578753</div>
+<div id='twitterentry'>@Open Source Security:</br>
+CVE-2017-2885 libsoup - stack based buffer overflow with HTTP Chunked Encoding: Posted by Tobias Mueller on Aug... https://t.co/RDuL0ovN89 https://twitter.com/oss_security/status/895635620898365440</div>
+<div id='twitterentry'>@DEY!:</br>
+RT @ebellis: BinaryAlert: Serverless, Real-time &amp;amp; Retroactive Malware Detection from AirBnB https://t.co/yB5gLMDP10 https://twitter.com/ronindey/status/895635522584014848</div>
+<div id='twitterentry'>@My Online Security:</br>
+RT @mpvillafranca94: @dvk01uk Campaign code is ser810 (yesterday was ser809), but same IPs in the config https://t.co/dKciBUYN7A https://twitter.com/dvk01uk/status/895634730057703424</div>
+<div id='twitterentry'>@Ars Technica:</br>
+AMD Threadripper 1950X review: Better than Intel in almost every way https://t.co/7DHarfD3NU by @markalexwalton https://twitter.com/arstechnica/status/895634093047771136</div>
+<div id='twitterentry'>@Dump Monitor:</br>
+https://t.co/hYyThNYrOL Emails: 218 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895633540871839744</div>
+<div id='twitterentry'>@WikiLeaks:</br>
+https://t.co/mCkikRVLKI https://t.co/R7huyW7WhK https://twitter.com/wikileaks/status/895632665059049472</div>
+<div id='twitterentry'>@Dump Monitor:</br>
+https://t.co/5NMWoyKToQ Emails: 145 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895632537804034048</div>
+<div id='twitterentry'>@DEY!:</br>
+The only reason why I haven&#x27;t moved to Chromium - Yet. https://t.co/9WjWaQNRs9 https://twitter.com/ronindey/status/895631658732232705</div>
+<div id='twitterentry'>@publiclyDisclosed:</br>
+Apache httpd (IBB) disclosed a bug submitted by javier_sensepost: https://t.co/chuCLzaxNw - Bounty: $1,500... https://t.co/Jyduj7NxAL https://twitter.com/disclosedh1/status/895630856596971520</div>
+<div id='twitterentry'>@Catalin Cimpanu:</br>
+uBlock Origin maintainer on why Firefox is better than Chrome for ad-block extensions https://t.co/1DK1BbELWi https://t.co/WEP3wnu7FO https://twitter.com/campuscodi/status/895630824644767744</div>
+<div id='twitterentry'>@WikiLeaks:</br>
+RT @wikileaks: CIA proposed special prosecutor to go after the media and aimed to intervene in journalism schools https://t.co/Pm6L8cuoD2 h... https://twitter.com/wikileaks/status/895630747985477632</div>
+<div id='twitterentry'>@Darknet Feed:</br>
+I just wanted a History lesson via /r/deepweb https://t.co/45ms2Lbg6W https://twitter.com/darknet_feed/status/895629648352161792</div>
+<div id='twitterentry'>@Ars Technica:</br>
+Pro-bigger batteries in our EVs https://t.co/aSgEg5iB66 https://twitter.com/arstechnica/status/895627275605094401</div>
+<div id='twitterentry'>@WikiLeaks:</br>
+#OpenSkies: 1,347 documents on the treaty behind Russian overflights of the US https://t.co/AzOG6VDLs8 https://t.co/rxduEd6ayN https://twitter.com/wikileaks/status/895624727619706881</div>
+<div id='twitterentry'>@MalwareHunterTeam:</br>
+RT @RTLZ: Nigeriaanse hackers breken in bij weerbedrijf Meteogroup Nederland https://t.co/d8WGpvsSvV https://t.co/cIEKIRWHBq https://twitter.com/malwrhunterteam/status/895623823202152448</div>
+<div id='twitterentry'>@Dump Monitor:</br>
+https://t.co/0EKdJcQP7V Emails: 100 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895623602720169984</div>
+<div id='twitterentry'>@Graham Cluley:</br>
+Amber Rudd tricked by email prankster who duped White House officials https://t.co/vMZCfmKyWv https://t.co/meMfPHGphr https://twitter.com/gcluley/status/895623358146072576</div>
 <div id='twitterentry'>@DEY!:</br>
 RT @hasherezade: Spreader of #Petya.A/#NotPetya (attack from June 2017) arrested in Ukraine: https://t.co/00dxRN5Oa9 https://twitter.com/ronindey/status/895622888782520320</div>
 <div id='twitterentry'>@DEY!:</br>
@@ -525,56 +237,10 @@ https://t.co/GfKTt3Ks2r Hashes: 87 Keywords: -0.03 #infoleak https://twitter.com
 <div id='twitterentry'>@Jake Williams:</br>
 This almost sounds too SciFi to be true. &quot;Diplomats attacked with sonic weapon&quot; - man, the future sucks...
 https://t.co/SpPqsnUV5D https://twitter.com/MalwareJake/status/895620856034021376</div>
-<div id='twitterentry'>@WikiLeaks:</br>
-#OpenSkies: 1,347 documents on the treaty behind Russian overflights of the US https://t.co/AzOG6VDLs8 https://t.co/rxduEd6ayN https://twitter.com/wikileaks/status/895624727619706881</div>
+<div id='twitterentry'>@Ars Technica:</br>
+&quot;Neutrino touch&quot; will also be the name of our ambient band https://t.co/zaFN6cbuPT https://twitter.com/arstechnica/status/895620375693766656</div>
 <div id='twitterentry'>@MalwareHunterTeam:</br>
-RT @RTLZ: Nigeriaanse hackers breken in bij weerbedrijf Meteogroup Nederland https://t.co/d8WGpvsSvV https://t.co/cIEKIRWHBq https://twitter.com/malwrhunterteam/status/895623823202152448</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/0EKdJcQP7V Emails: 100 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895623602720169984</div>
-<div id='twitterentry'>@Graham Cluley:</br>
-Amber Rudd tricked by email prankster who duped White House officials https://t.co/vMZCfmKyWv https://t.co/meMfPHGphr https://twitter.com/gcluley/status/895623358146072576</div>
-<div id='twitterentry'>@Ars Technica:</br>
-Pro-bigger batteries in our EVs https://t.co/aSgEg5iB66 https://twitter.com/arstechnica/status/895627275605094401</div>
-<div id='twitterentry'>@DEY!:</br>
-The only reason why I haven&#x27;t moved to Chromium - Yet. https://t.co/9WjWaQNRs9 https://twitter.com/ronindey/status/895631658732232705</div>
-<div id='twitterentry'>@publiclyDisclosed:</br>
-Apache httpd (IBB) disclosed a bug submitted by javier_sensepost: https://t.co/chuCLzaxNw - Bounty: $1,500... https://t.co/Jyduj7NxAL https://twitter.com/disclosedh1/status/895630856596971520</div>
-<div id='twitterentry'>@Catalin Cimpanu:</br>
-uBlock Origin maintainer on why Firefox is better than Chrome for ad-block extensions https://t.co/1DK1BbELWi https://t.co/WEP3wnu7FO https://twitter.com/campuscodi/status/895630824644767744</div>
-<div id='twitterentry'>@WikiLeaks:</br>
-RT @wikileaks: CIA proposed special prosecutor to go after the media and aimed to intervene in journalism schools https://t.co/Pm6L8cuoD2 h... https://twitter.com/wikileaks/status/895630747985477632</div>
-<div id='twitterentry'>@Darknet Feed:</br>
-I just wanted a History lesson via /r/deepweb https://t.co/45ms2Lbg6W https://twitter.com/darknet_feed/status/895629648352161792</div>
-<div id='twitterentry'>@Ars Technica:</br>
-AMD Threadripper 1950X review: Better than Intel in almost every way https://t.co/7DHarfD3NU by @markalexwalton https://twitter.com/arstechnica/status/895634093047771136</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/hYyThNYrOL Emails: 218 Keywords: 0.11 #infoleak https://twitter.com/dumpmon/status/895633540871839744</div>
-<div id='twitterentry'>@WikiLeaks:</br>
-https://t.co/mCkikRVLKI https://t.co/R7huyW7WhK https://twitter.com/wikileaks/status/895632665059049472</div>
-<div id='twitterentry'>@Dump Monitor:</br>
-https://t.co/5NMWoyKToQ Emails: 145 Keywords: 0.0 #infoleak https://twitter.com/dumpmon/status/895632537804034048</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @lilyhnewman: kind of the dream to have your research called &quot;more of a plot point in a Michael Crichton novel&quot; https://t.co/6V0BKvmgcq https://twitter.com/ronindey/status/895636448162009088</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @trufae: I just published &quot;Reply to the PEDA vs r2 blogpost&quot; https://t.co/ESBKlYJ3SH https://twitter.com/ronindey/status/895635898989248512</div>
-<div id='twitterentry'>@Ars Technica:</br>
-The FCC is just trolling all of us, right? https://t.co/7ANuX6WXbm https://twitter.com/arstechnica/status/895635680197578753</div>
-<div id='twitterentry'>@Open Source Security:</br>
-CVE-2017-2885 libsoup - stack based buffer overflow with HTTP Chunked Encoding: Posted by Tobias Mueller on Aug... https://t.co/RDuL0ovN89 https://twitter.com/oss_security/status/895635620898365440</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @ebellis: BinaryAlert: Serverless, Real-time &amp;amp; Retroactive Malware Detection from AirBnB https://t.co/yB5gLMDP10 https://twitter.com/ronindey/status/895635522584014848</div>
-<div id='twitterentry'>@My Online Security:</br>
-RT @mpvillafranca94: @dvk01uk Campaign code is ser810 (yesterday was ser809), but same IPs in the config https://t.co/dKciBUYN7A https://twitter.com/dvk01uk/status/895634730057703424</div>
-<div id='twitterentry'>@Patrick C Miller:</br>
-RT @k8em0: Talented security engineers are so hard to find. Allowing them to discuss their work is key to retaining the best in the field.... https://twitter.com/PatrickCMiller/status/895638632052039681</div>
-<div id='twitterentry'>@DarkReading:</br>
-6 Ways CISOs Can Play a Role in Selling Security https://t.co/8xXhWgIuxn https://twitter.com/DarkReading/status/895638537583947777</div>
-<div id='twitterentry'>@Graham Cluley:</br>
-r/t Hotspot Shield VPN accused of logging user data, selling it to advertisers https://t.co/aHfa9UURkA (via @DMBisson) https://twitter.com/gcluley/status/895638364245938176</div>
-<div id='twitterentry'>@DEY!:</br>
-RT @Paris: Attention : des prospectus frauduleux portant le logo de la Mairie de Paris circulent dans les boites aux lettres https://t.co/... https://twitter.com/ronindey/status/895637929623781377</div>
-<div id='twitterentry'>@bgpstream:</br>
-BGP,OT,393657,-Reserved AS-, ZZ,-,Outage affected 31 prefixes, https://t.co/engr0BTIxz https://twitter.com/bgpstream/status/895637272309243904</div>
+@Metro_Bank @troyhunt Or, I can imagine, that they only store the 3 characters in plaintext, but then it&#x27;s equally... https://t.co/JDUz80qeGq https://twitter.com/malwrhunterteam/status/895620262846124032</div>
 
 
 </div>
